@@ -6,6 +6,8 @@ import AddLogModal from './Components/Logs/AddLogModal';
 import EditLogModal from './Components/Logs/EditLogModal';
 import AddTechModal from './Components/Techs/AddTechModal';
 import TechListModal from './Components/Techs/TechListModal';
+import { Provider } from 'react-redux';
+import Store from './Store';
 
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
@@ -17,7 +19,8 @@ const App = () => {
     M.AutoInit();
   },[])
   return (
-    <Fragment className="App">
+    <Provider store={Store}>
+      <Fragment className="App">
       <SearchBar />
       <div className="container">
         <AddBtn />
@@ -28,6 +31,8 @@ const App = () => {
         <Logs/>
       </div>
     </Fragment>
+    </Provider>
+    
   );
 }
 
