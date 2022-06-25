@@ -1,5 +1,20 @@
 {
-  "logs": [],
+  "logs": [
+    {
+      "id": 1,
+      "message": "Server 2205 Network Log Crash Fixed",
+      "attention": false,
+      "tech": "Sara Wilson",
+      "date": "2022-06-25T07:44:55.582Z"
+    },
+    {
+      "message": "Network card 007 error fixed",
+      "attention": false,
+      "tech": "Sara Wilson",
+      "date": "2022-06-25T07:40:26.637Z",
+      "id": 2
+    }
+  ],
   "techs": [
     {
       "id": 1,
