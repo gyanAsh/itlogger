@@ -1,5 +1,7 @@
 import {
     GET_TECHS,
+    ADD_TECH,
+    DELETE_TECH,
     SET_LOADING,
     TECHS_ERROR
 } from "../Actions/Types";
@@ -18,10 +20,23 @@ export default (state = initalState, action) => {
                 techs: action.payload,
                 loading:false
             }
+        case ADD_TECH:
+            return {
+                ...state,
+                techs: [...state.techs, action.payload],
+                loading:false
+            }
         case SET_LOADING:
             return {
                 ...state,
                 loading:true
+            }
+        case TECHS_ERROR:
+            console.log(action.payload);
+            return {
+                ...state,
+                error: action.payload,
+                loading:false
             }
         default:
             return state;
