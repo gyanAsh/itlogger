@@ -25,6 +25,11 @@
       "id": 2,
       "firstName": "Sam",
       "lastName": "Smith"
+    },
+    {
+      "id":3,
+      "firstName":"Tom",
+      "lastName":"Riddle"
     }
   ]
 }
