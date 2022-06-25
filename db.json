@@ -3,16 +3,16 @@
     {
       "id": 1,
       "message": "Server 2205 Network Log Crash Fixed",
-      "attention": false,
-      "tech": "Sara Wilson",
-      "date": "2022-06-25T07:44:55.582Z"
+      "attention": true,
+      "tech": "Tom Riddle",
+      "date": "2022-06-25T11:12:41.274Z"
     },
     {
+      "id": 2,
       "message": "Network card 007 error fixed",
       "attention": false,
-      "tech": "Sara Wilson",
-      "date": "2022-06-25T07:40:26.637Z",
-      "id": 2
+      "tech": "Sam Smith",
+      "date": "2022-06-25T11:12:35.850Z"
     }
   ],
   "techs": [
@@ -27,9 +27,9 @@
       "lastName": "Smith"
     },
     {
-      "id":3,
-      "firstName":"Tom",
-      "lastName":"Riddle"
+      "id": 3,
+      "firstName": "Tom",
+      "lastName": "Riddle"
     }
   ]
 }
