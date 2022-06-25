@@ -1,13 +1,6 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Server 2205 Network Log Crash Fixed",
-      "attention": true,
-      "tech": "Tom Riddle",
-      "date": "2022-06-25T11:12:41.274Z"
-    },
-    {
       "id": 2,
       "message": "Network card 007 error fixed",
       "attention": false,
@@ -30,11 +23,6 @@
       "id": 3,
       "firstName": "Tom",
       "lastName": "Riddle"
-    },
-    {
-      "firstName": "Anupam",
-      "lastName": "Minj",
-      "id": 4
     },
     {
       "firstName": "Jack",
